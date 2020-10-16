@@ -1,7 +1,8 @@
 import React from 'react';
+import Chart from '../Chart/Chart'
+import PieChart from '../PieChart/PieChart';
 
-
-function HomePage() {
+function HomePage()  {
   return (
     <main className="container center">
 
@@ -63,19 +64,17 @@ function HomePage() {
                     because they know it is all good and accounted for.
                 </p>
             </article>
-    
-            <article className="text-box">
-                <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
+            <article>
+                
+                    <Chart/>
+                
             </article>
             <article>
                 <h1>
                     D3JS Chart
                 </h1>
                 
-                    <svg width="200" height="200"></svg>
+                    <PieChart/>
                 
             </article>
 
@@ -85,4 +84,6 @@ function HomePage() {
   );
 }
 
+
 export default HomePage;
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 
 import {
@@ -15,6 +15,7 @@ import HomePage from './HomePage/HomePage';
 import Menu from './Menu/Menu';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <HomePage/>
             </Route>
           </Switch>
+          
         </div>
         
         <Footer/>
